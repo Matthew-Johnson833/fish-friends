@@ -93,3 +93,109 @@ body {
     height: 300px;
     width: 400px;
 }
+
+.content {
+display: flex;
+flex-direction: row;
+gap: 20px;
+padding-bottom: 50px;
+}
+.info-h1 {
+    display: flex;
+    font-size: 30px;    
+    font-weight: bold;
+}
+.image-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+.image-info p {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+}
+.image-info img {
+    height: 150px;
+    width: auto;
+    border-radius: 10%;
+}
+.color-wrap-quote {
+    background-color: rgba(0, 105, 148, 0.2);
+    width: 100%;
+    padding: 25px;
+}
+.quotes {
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quote-1, .quote-2{
+    color: blue;
+    width: 60%;
+}
+.quote-1 {
+    font-size: 36px;
+    font-style: italic;
+}
+.quote-2 {
+    display: flex;
+    justify-content: right;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.call-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    border-radius: 10px;
+    background-color: #1CC7D4;
+    padding: 25px 100px;
+    width: 50%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75px;
+}
+
+.button-call button:hover {
+    background-color: #006994;
+}
+button {
+    font-weight: bold;
+    width: 100px;
+}
+button:hover {
+    background-color: cyan;
+    border-radius: 5px;
+}
+.call-text {
+    display: flex;
+    flex-direction: column;
+    text-align: left;   
+    padding-right: 20px;
+}
+
+.footer {
+    background-color: #006994;
+    width: 100%;
+    color: white;
+}
+.footer a:link {
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+.footer a:visited {
+    color: white;
+} 
+.footer a:hover {
+    color: cyan;
+}
